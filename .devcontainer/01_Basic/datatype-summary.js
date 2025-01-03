@@ -17,15 +17,37 @@ console.log(typeof bigNumber);
 
 // Array, Objects, Functions
 
-const heros =["shaktiman","naagraj","doga"]
-{
-    name:"hitesh",
-    age:22
-}
+// const heros =["shaktiman","naagraj","doga"]
+// {
+//     name:"hitesh",
+//     age:22
+// }
 
-const myFunction = function(){    
-    console. log("Hello world");
-}
+// const myFunction = function(){    
+//     console. log("Hello world");
+// }
 
-console.log(typrof(myFunction))
+// console.log(typrof(myFunction))
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ====================================================================
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename="Hellodotcom"
+
+let anothername = myYoutubename
+anothername="my work is done"
+console. log (myYoutubename) ;
+console. log (anothername) ;
+
+let userOne ={
+email: "user@google.com",
+upi: "user@ybl",
+}
+
+let userTwo=userOne
+userTwo. email="Impero@google.com"
+console. log (userOne.email);
+console. log (userTwo.email);
