@@ -1,1 +1,1 @@
-console.log("Welcomw to the javascript Tutorial");
+console.log("Welcome to the javascript Tutorial");
