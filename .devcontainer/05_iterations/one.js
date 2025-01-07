@@ -1,4 +1,4 @@
-// for (let i = 0; i <=10; i++) {
+// for (let i = 1; i <=10; i++) {
 //     const element = i;
 //     if (element==5) {
 //         // console.log("these is the my favourite number");        
@@ -48,3 +48,11 @@ for (let i = 1; i<= 10; i++) {
     }
     console.log(`Value of i is ${i}`);    
 }
+
+
+
+// my understaing
+// for (let index = 1; index <= 10; index=index+2) {
+//     console.log(index);
+        
+// }
